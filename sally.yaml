@@ -1,0 +1,7 @@
+---
+
+url: go.uber.org
+
+packages:
+    yarpc:
+        repo: github.com/yarpc/yarpc-go
