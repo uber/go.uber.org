@@ -9,3 +9,5 @@ packages:
         repo: github.com/thriftrw/thriftrw-go
     ratelimit:
         repo: github.com/uber-go/ratelimit
+    sally:
+        repo: github.com/uber-go/sally
