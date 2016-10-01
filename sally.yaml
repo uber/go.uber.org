@@ -11,3 +11,5 @@ packages:
         repo: github.com/uber-go/ratelimit
     sally:
         repo: github.com/uber-go/sally
+    fx:
+        repo: github.com/uber-go/uberfx
