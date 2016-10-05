@@ -11,3 +11,4 @@ clean:
 .PHONY: docs
 docs: clean
 	sally -dir docs
+	./scripts/update-everything.sh
