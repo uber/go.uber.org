@@ -18,9 +18,8 @@ trap "rm -rf '$workdir'" EXIT
 files=$(mktemp)
 git clone "https://$repo" "$workdir"
 (
-	pushd "$workdir" >/dev/null
+	cd "$workdir"
 	find . -name .git -prune -o -type d -print
-	popd >/dev/null
 ) | while read -r package; do
 	mkdir -p "docs/$name/$package"
 	cp "docs/$name.html" "docs/$name/$package/index.html"
