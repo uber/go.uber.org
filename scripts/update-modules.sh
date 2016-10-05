@@ -13,18 +13,18 @@ fi
 set -e
 
 workdir=$(mktemp -d)
-trap 'rm -rf "$workdir"' EXIT
+trap "rm -rf '$workdir'" EXIT
 
 files=$(mktemp)
 git clone "https://$repo" "$workdir"
-( \
-	pushd "$workdir" >/dev/null; \
-	find . -name .git -prune -o -type d -print; \
-	popd >/dev/null \
+(
+	pushd "$workdir" >/dev/null
+	find . -name .git -prune -o -type d -print
+	popd >/dev/null
 ) | while read -r package; do
-		mkdir -p "docs/$name/$package"
-		cp "docs/$name.html" "docs/$name/$package/index.html"
-		echo "docs/$name/$package/index.html" >> "$files"
-	done
+	mkdir -p "docs/$name/$package"
+	cp "docs/$name.html" "docs/$name/$package/index.html"
+	echo "docs/$name/$package/index.html" >> "$files"
+done
 
 git add $(cat "$files")
