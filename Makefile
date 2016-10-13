@@ -1,6 +1,6 @@
 .PHONY: install
 install:
-	go get go.uber.org/sally
+	go get -u go.uber.org/sally
 
 
 .PHONY: run
