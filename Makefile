@@ -5,4 +5,4 @@ install:
 
 .PHONY: run
 run:
-	sally -yml sally.yaml -port 5000
+	sally -yml sally.yaml -port 8080
