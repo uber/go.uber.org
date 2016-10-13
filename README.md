@@ -1,8 +1,8 @@
 # go.uber.org
 
-To regenerate this site, edit `sally.yaml` and then:
+To update [go.uber.org](https://go.uber.org/):
 
-```
-$ make install
-$ make docs
-```
+1. Make a change to `sally.yaml`
+2. Create a Pull Request
+
+When the PR lands, the site will automatically be deployed.
