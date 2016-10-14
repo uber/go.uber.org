@@ -1,14 +1,8 @@
 .PHONY: install
 install:
-	go get github.com/uber-go/sally
+	go get go.uber.org/sally
 
 
-.PHONY: clean
-clean:
-	rm -rf docs/*.html
-
-
-.PHONY: docs
-docs: clean
-	sally -dir docs
-	./scripts/update-everything.sh
+.PHONY: run
+run:
+	sally -yml sally.yaml -port 8080
