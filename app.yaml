@@ -1,3 +1,2 @@
-service: gouberorg
 runtime: custom
 vm: true
