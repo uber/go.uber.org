@@ -13,4 +13,4 @@ deploy:
   provider: gae
   keyfile: gce.json
   project: go-uber-org
-  on: gce
+  on: master
