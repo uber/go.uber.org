@@ -1,0 +1,9 @@
+deploy:
+  provider: gae
+  keyfile: gce-deploy-secret.json
+  project: go-uber-org
+  on: gce
+
+before_install:
+  - openssl aes-256-cbc -K $encrypted_a8a6a38f04c1_key -iv $encrypted_a8a6a38f04c1_iv
+    -in gce-deploy-secret.json.enc -out gce-deploy-secret.json -d
