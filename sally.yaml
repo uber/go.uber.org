@@ -3,6 +3,8 @@
 url: go.uber.org
 
 packages:
+    atomic:
+        repo: github.com/uber-go/atomic
     fx:
         repo: github.com/uber-go/uberfx
     ratelimit:
