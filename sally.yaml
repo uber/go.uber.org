@@ -3,15 +3,15 @@
 url: go.uber.org
 
 packages:
-    yarpc:
-        repo: github.com/yarpc/yarpc-go
-    thriftrw:
-        repo: github.com/thriftrw/thriftrw-go
+    fx:
+        repo: github.com/uber-go/uberfx
     ratelimit:
         repo: github.com/uber-go/ratelimit
     sally:
         repo: github.com/uber-go/sally
-    fx:
-        repo: github.com/uber-go/uberfx
+    thriftrw:
+        repo: github.com/thriftrw/thriftrw-go
+    yarpc:
+        repo: github.com/yarpc/yarpc-go
     zap:
         repo: github.com/uber-go/zap
