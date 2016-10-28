@@ -13,6 +13,8 @@ packages:
         repo: github.com/uber-go/sally
     thriftrw:
         repo: github.com/thriftrw/thriftrw-go
+    torch:
+        repo: github.com/uber/go-torch
     yarpc:
         repo: github.com/yarpc/yarpc-go
     zap:
