@@ -6,7 +6,7 @@ packages:
     atomic:
         repo: github.com/uber-go/atomic
     fx:
-        repo: github.com/uber-go/uberfx
+        repo: github.com/uber-go/fx
     ratelimit:
         repo: github.com/uber-go/ratelimit
     sally:
