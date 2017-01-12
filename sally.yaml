@@ -11,8 +11,6 @@ packages:
         repo: github.com/uber-go/ratelimit
     sally:
         repo: github.com/uber-go/sally
-    test:
-        repo: github.com/uber-go/sally
     thriftrw:
         repo: github.com/thriftrw/thriftrw-go
     torch:
