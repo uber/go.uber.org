@@ -1,4 +1,5 @@
-FROM golang
+FROM golang:1.7.4
+
 ADD . app/
 WORKDIR app/
 RUN make install
