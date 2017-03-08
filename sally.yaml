@@ -13,6 +13,8 @@ packages:
         repo: github.com/uber-go/sally
     thriftrw:
         repo: github.com/thriftrw/thriftrw-go
+    tools:
+        repo: github.com/uber-go/tools
     torch:
         repo: github.com/uber/go-torch
     update-license:
