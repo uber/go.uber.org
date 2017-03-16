@@ -7,6 +7,8 @@ packages:
         repo: github.com/uber-go/atomic
     fx:
         repo: github.com/uber-go/fx
+    multierr:
+        repo: github.com/uber-go/multierr
     ratelimit:
         repo: github.com/uber-go/ratelimit
     sally:
