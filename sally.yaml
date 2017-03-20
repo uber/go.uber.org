@@ -19,8 +19,6 @@ packages:
         repo: github.com/uber-go/tools
     torch:
         repo: github.com/uber/go-torch
-    update-license:
-        repo: github.com/uber-go/update-license
     yarpc:
         repo: github.com/yarpc/yarpc-go
     zap:
