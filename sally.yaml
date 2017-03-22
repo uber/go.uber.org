@@ -5,6 +5,8 @@ url: go.uber.org
 packages:
     atomic:
         repo: github.com/uber-go/atomic
+    dig:
+        repo: github.com/uber-go/dig
     fx:
         repo: github.com/uber-go/fx
     multierr:
