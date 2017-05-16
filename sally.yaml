@@ -25,3 +25,5 @@ packages:
         repo: github.com/yarpc/yarpc-go
     zap:
         repo: github.com/uber-go/zap
+    cadence:
+        repo: github.com/uber-go/cadence-client
