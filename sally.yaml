@@ -5,6 +5,8 @@ url: go.uber.org
 packages:
     atomic:
         repo: github.com/uber-go/atomic
+    cadence:
+        repo: github.com/uber-go/cadence-client
     dig:
         repo: github.com/uber-go/dig
     fx:
