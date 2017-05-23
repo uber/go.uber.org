@@ -7,6 +7,8 @@ packages:
         repo: github.com/uber-go/atomic
     cadence:
         repo: github.com/uber-go/cadence-client
+    config:
+        repo: github.com/uber-go/config
     dig:
         repo: github.com/uber-go/dig
     fx:
