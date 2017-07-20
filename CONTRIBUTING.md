@@ -16,7 +16,7 @@ Before a project can be included here it must meet several criteria:
   no backwards-incompatible changes).
 
 * Maintained. The project should at all times have well-defined owners who are
-  comitteted to addressing issues on the project.
+  committed to addressing issues on the project.
 
 Projects already listed on `go.uber.org` but not meeting these criteria may be
 removed.
