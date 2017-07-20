@@ -1,7 +1,7 @@
 # Contribution Guidelines
 
 The `go.uber.org` domain is meant to host stable, high-quality, well-maintained
-Go libraries developed by Uber Technologies Inc..
+Go libraries developed by Uber Technologies, Inc.
 
 Adding a new project to the domain can be done by inserting an entry in `sally.yaml`.
 
