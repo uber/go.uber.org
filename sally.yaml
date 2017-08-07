@@ -5,6 +5,8 @@ url: go.uber.org
 packages:
     atomic:
         repo: github.com/uber-go/atomic
+    automaxprocs:
+        repo: github.com/uber-go/automaxprocs
     cadence:
         repo: github.com/uber-go/cadence-client
     config:
