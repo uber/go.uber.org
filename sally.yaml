@@ -17,6 +17,8 @@ packages:
         repo: github.com/uber-go/fx
     multierr:
         repo: github.com/uber-go/multierr
+    net/metrics:
+        repo: github.com/yarpc/metrics
     ratelimit:
         repo: github.com/uber-go/ratelimit
     sally:
