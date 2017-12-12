@@ -21,6 +21,8 @@ packages:
         repo: github.com/uber-go/multierr
     net/metrics:
         repo: github.com/yarpc/metrics
+    protoidl:
+        repo: github.com/uber-go/protoidl
     ratelimit:
         repo: github.com/uber-go/ratelimit
     sally:
