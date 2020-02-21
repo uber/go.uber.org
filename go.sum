@@ -22,6 +22,8 @@ github.com/yosssi/gohtml v0.0.0-20180130040904-97fbf36f4aa8 h1:OlIHDBRrlQk8fHa66
 github.com/yosssi/gohtml v0.0.0-20180130040904-97fbf36f4aa8/go.mod h1:+ccdNT0xMY1dtc5XBxumbYfOUhmduiGudqaDgD2rVRE=
 go.uber.org/sally v1.0.1 h1:8nW5hTPYrikcxgZfaKe9PWq0DjKHH53jvHtC+b8iCWM=
 go.uber.org/sally v1.0.1/go.mod h1:CSg5bf/42V2KRJc5OGyL6UzBn9Aogi1kZp6RkoGOVe4=
+go.uber.org/sally v1.1.0 h1:TAV/2TZj+1yf5s+kg+XJTf7/3D/KSc0I4fxvBOrrn5k=
+go.uber.org/sally v1.1.0/go.mod h1:CSg5bf/42V2KRJc5OGyL6UzBn9Aogi1kZp6RkoGOVe4=
 golang.org/x/lint v0.0.0-20181217174547-8f45f776aaf1 h1:rJm0LuqUjoDhSk2zO9ISMSToQxGz7Os2jRiOL8AWu4c=
 golang.org/x/lint v0.0.0-20181217174547-8f45f776aaf1/go.mod h1:UVdnD1Gm6xHRNCYTkRU2/jEulfH38KcIWyp/GAMgvoE=
 golang.org/x/net v0.0.0-20181220203305-927f97764cc3 h1:eH6Eip3UpmR+yM/qI9Ijluzb1bNv/cAU/n+6l8tRSis=
