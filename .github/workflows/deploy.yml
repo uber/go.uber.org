@@ -1,0 +1,40 @@
+name: Deploy to Google App Engine
+
+on:
+  push:
+    branches:
+      # TODO(abg): Change to master
+      - gh-workflow-deployment
+
+jobs:
+  deploy:
+    name: Build and deploy
+    runs-on: ubuntu-latest
+    environment: production
+
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: Authenticate to Google Cloud
+      uses: google-github-actions/auth@v0
+      with:
+        # This is set from GitHub secrets.
+        credentials_json: '${{ secrets.GCP_SA_KEY }}'
+        promote: false
+        # TODO(abg): Delete this once we've verified it works.
+
+    - id: deploy
+      name: Deploy to Google App Engine
+      uses: google-github-actions/deploy-appengine@v0
+      with:
+        project_id: go-uber-org
+
+    - name: Verify deployment
+      run: curl "${{ steps.deploy.outputs.url }}"
+      # Deploy step outputs the final URL.
+      # curl it to make sure things work.
