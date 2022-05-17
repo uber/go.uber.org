@@ -3,8 +3,7 @@ name: Deploy to Google App Engine
 on:
   push:
     branches:
-      # TODO(abg): Change to master
-      - gh-workflow-deployment
+      - master
 
 jobs:
   deploy:
@@ -25,8 +24,6 @@ jobs:
       with:
         # This is set from GitHub secrets.
         credentials_json: '${{ secrets.GCP_SA_KEY }}'
-        promote: false
-        # TODO(abg): Delete this once we've verified it works.
 
     - id: deploy
       name: Deploy to Google App Engine
