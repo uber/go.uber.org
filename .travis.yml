@@ -4,7 +4,7 @@ sudo: required
 services:
   - docker
 
-go: 1.11
+go: 1.18
 
 before_install:
   - openssl aes-256-cbc -K $encrypted_a8a6a38f04c1_key -iv $encrypted_a8a6a38f04c1_iv
