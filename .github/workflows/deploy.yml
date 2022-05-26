@@ -1,10 +1,6 @@
 name: Deploy to Google App Engine
 
-on:
-  workflow_dispatch:
-  push:
-    branches:
-      - master
+on: [push]
 
 jobs:
   deploy:
@@ -34,7 +30,7 @@ jobs:
 
     - name: Verify deployment
       run: |
-        import os, requests
-        res = requests.get('http://go.uber.org').status_code == 200
-        os.Exit(0) if res else os.Exit(1)
+        import sys, requests
+        res = requests.get('https://go.uber.org').status_code == 200
+        sys.exit(0) if res else sys.exit(1)
       shell: python
