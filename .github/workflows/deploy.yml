@@ -34,6 +34,6 @@ jobs:
     - name: Verify deployment
       run: |
         import os, requests
-        resp = requests.get('http://go.uber.org').status_code == 200
-        os.Exit(0) if resp else os.Exit(1)
+        res = requests.get('http://go.uber.org').status_code == 200
+        os.Exit(0) if res else os.Exit(1)
       shell: python
