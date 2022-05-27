@@ -32,6 +32,8 @@ jobs:
         project_id: go-uber-org
 
     - name: Verify deployment
-      run: curl "${{ steps.deploy.outputs.url }}"
-      # Deploy step outputs the final URL.
-      # curl it to make sure things work.
+      run: |
+        import sys, requests
+        res = requests.get('https://go.uber.org').status_code == 200
+        sys.exit(0) if res else sys.exit(1)
+      shell: python
