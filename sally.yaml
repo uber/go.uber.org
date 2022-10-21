@@ -11,6 +11,8 @@ packages:
         repo: github.com/uber-go/cadence-client
     config:
         repo: github.com/uber-go/config
+    cff:
+        repo: github.com/uber-go/cff
     dig:
         repo: github.com/uber-go/dig
     fx:
