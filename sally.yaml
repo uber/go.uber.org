@@ -5,35 +5,49 @@ url: go.uber.org
 packages:
     atomic:
         repo: github.com/uber-go/atomic
+        description: Wrapper types for sync/atomic enforcing atomic access.
     automaxprocs:
         repo: github.com/uber-go/automaxprocs
+        description: Library for auto-setting GOMAXPROCS to match Linux container CPU quota.
     cadence:
         repo: github.com/uber-go/cadence-client
+        description: Go client for the Cadence workflow orchestration engine.
     config:
         repo: github.com/uber-go/config
+        description: Configuration library for Go applications.
     dig:
         repo: github.com/uber-go/dig
+        description: A reflection based dependency injection library for Go.
     fx:
         repo: github.com/uber-go/fx
+        description: A dependency injection based application framework for Go.
     goleak:
         repo: github.com/uber-go/goleak
+        description: A goroutine leak detection library.
     multierr:
         repo: github.com/uber-go/multierr
+        description: A library for combining one or more Go errors together.
     net/metrics:
         repo: github.com/yarpc/metrics
+        description: Fast metrics compatible with Prometheus, StatsD, and M3.
     protoidl:
         repo: github.com/uber-go/protoidl
     ratelimit:
         repo: github.com/uber-go/ratelimit
+        description: A Go blocking leaky-bucket rate limit implementation.
     sally:
         repo: github.com/uber-go/sally
+        description: A tiny HTTP server for supporting custom Golang import paths.
     thriftrw:
         repo: github.com/thriftrw/thriftrw-go
+        description: A Thrift encoding code generator and library for Go.
     tools:
         repo: github.com/uber-go/tools
     torch:
         repo: github.com/uber/go-torch
     yarpc:
         repo: github.com/yarpc/yarpc-go
+        description: A message passing platform for Go.
     zap:
         repo: github.com/uber-go/zap
+        description: Blazing fast, structured, leveled logging in Go.
