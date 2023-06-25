@@ -1,8 +1,9 @@
-# go.uber.org
+# Source for go.uber.org website
 
-To update [go.uber.org](https://go.uber.org/):
+## Notice
 
-1. Make a change to `sally.yaml`
-2. Create a Pull Request
+This repository is for Uber Technologies, Inc internal use only.  
 
-When the PR lands, the site will automatically be deployed via [![Deploy to Google App Engine](https://github.com/uber/go.uber.org/actions/workflows/deploy.yml/badge.svg)](https://github.com/uber/go.uber.org/actions/workflows/deploy.yml).
+Code contributions and Pull Requests are only allowed for internal employees.  If you have a suggestion for an update to this site, 
+please file a bug report on the site and the moderators will get back to you.
+
