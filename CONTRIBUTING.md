@@ -1,5 +1,7 @@
 # Contribution Guidelines
 
+## Description
+
 The `go.uber.org` domain is meant to host stable, high-quality, well-maintained
 Go libraries developed by Uber Technologies, Inc.
 
@@ -20,3 +22,13 @@ Before a project can be included here it must meet several criteria:
 
 Projects already listed on `go.uber.org` but not meeting these criteria may be
 removed.
+
+## Process
+
+To update [go.uber.org](https://go.uber.org/):
+
+1. Make a change to `sally.yaml`
+2. Create a Pull Request
+
+When the PR lands, the site will automatically be deployed via [![Deploy to Google App Engine](https://github.com/uber/go.uber.org/actions/workflows/deploy.yml/badge.svg)](https://github.com/uber/go.uber.org/actions/workflows/deploy.yml).
+
