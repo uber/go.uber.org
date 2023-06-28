@@ -26,7 +26,7 @@ packages:
         description: A goroutine leak detection library.
     mock:
         repo: github.com/uber/mock
-        description: A mocking framework for Go.
+        description: A mocking framework for Go. Maintained fork of golang/mock.
     multierr:
         repo: github.com/uber-go/multierr
         description: A library for combining one or more Go errors together.
