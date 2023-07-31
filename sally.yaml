@@ -54,3 +54,6 @@ packages:
     zap:
         repo: github.com/uber-go/zap
         description: Blazing fast, structured, leveled logging in Go.
+    nilaway:
+        repo: github.com/uber-go/nilaway
+        description: A static analysis tool for detecting potential nil panics in Go.
