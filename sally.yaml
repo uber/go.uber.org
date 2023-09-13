@@ -14,9 +14,10 @@ packages:
         description: Go client for the Cadence workflow orchestration engine.
     config:
         repo: github.com/uber-go/config
+        description: Configuration library for Go applications.
     cff:
         repo: github.com/uber-go/cff
-        description: Configuration library for Go applications.
+        description: Concurrency toolkit for Go.
     dig:
         repo: github.com/uber-go/dig
         description: A reflection based dependency injection library for Go.
