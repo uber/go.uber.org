@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - master
+  # Manually run from the github UI.
+  workflow_dispatch:
 
 jobs:
   deploy:
